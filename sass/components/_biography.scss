@@ -1,0 +1,46 @@
+#biography{
+    display: $flex;
+    width: $width100;
+    justify-content: $spacebetween;
+
+    #whoweare{
+        background-image: url(../assets/img/background-we-are.png);
+        background-repeat: no-repeat;
+        
+        display: $flex;
+        flex-direction: $column;
+        justify-content: $center;
+        width: $width50;
+        #titrebio{
+            color:$violet;
+            font-family:$fontlobster;
+            font-size: $size20;
+            font-weight:$fontnormal;
+            
+        }
+        h3{
+            font-family: $fontpoppins;
+            font-size: $size50;
+            font-weight: font600; 
+            color: $titlegris;  
+        }
+        p{
+            width: 450px;
+            color: $gristext;
+            font-family: $fontpoppins;
+            font-size: $size16;
+            font-weight: $font300;
+        }
+        button{
+            width: 162px;
+            height: 49px;
+            border-radius: $size25;
+            background: $degrade;
+            color:$white;
+            border: none;
+        }
+    }
+
+
+}
+

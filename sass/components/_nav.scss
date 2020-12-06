@@ -1,0 +1,29 @@
+nav{
+    
+    width: $width50;
+    img{
+        
+        position: absolute;
+        right: 0;
+        
+    }
+    ul{
+        position: relative;
+        padding-top: 55px;
+        margin-left: $size50;
+        display: $flex; 
+        justify-content: $center;   
+    }
+    li{
+    display: $flex;
+    flex-wrap: $wrap;
+    padding-right: $size50;
+    }
+    a{
+    color: $white;
+    text-decoration: none;
+    font-family: $fontpoppins;
+    font-size: $size16;
+    font-weight: $font500;
+    }
+}

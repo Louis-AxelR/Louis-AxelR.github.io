@@ -1,0 +1,40 @@
+#contact{
+    display: $flex;
+    flex-direction: $column;
+    justify-content:  $spacearound;
+    width: 20vw;
+    height: 20vh;
+    position: relative;
+    padding-top: 450px;
+    h2{
+        font-family: $fontpoppins;
+        font-size: $size20;
+        font-weight: $font500;
+        color: $white;
+    }
+    div{
+        ul{
+       
+            li{
+                display: $flex;
+                justify-content: $spacebetween;
+                padding-top: 15px;
+               a{
+                   text-decoration: none;
+                   font-family: $fontpoppins;
+                    font-size: $size16;
+                    font-weight: $fontnormal;
+                    color: $white;
+               }
+    
+            }
+        }
+    }
+    p{
+        font-family: $fontpoppins;
+        font-size: $size16;
+        font-weight: $fontnormal;
+        color: $white; 
+    }
+    
+}

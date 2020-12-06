@@ -1,0 +1,14 @@
+footer{
+  width: $width100;
+  
+ 
+    #footer{
+        display: $flex;
+        justify-content:$spacearound;
+        img{
+            position: absolute;
+            width: $width100;
+        };
+    }
+    
+}

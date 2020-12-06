@@ -1,0 +1,77 @@
+#ourservices{
+    width: $width100;
+    display: $flex;
+    flex-direction: $column;
+    margin-bottom: 250px;
+    #sujet{
+        width: $width100;
+        padding-left: 220px;
+        padding-top: 150px;
+        h2{
+            font-family: $fontlato;
+            font-size: $size25;
+            font-weight: $fontnormal;
+            color: $violet;
+        }
+        h3{
+            font-family: $fontpoppins;
+            font-size: $size50;
+            font-weight: font600; 
+            color: $titlegris; 
+        }
+    }
+    #presentation{
+        width: $width100;
+        background-image: url(../assets/img/background-service.png);
+        background-repeat: no-repeat;
+        display: $flex;
+        flex-wrap: $wrap;
+        justify-content: $spacearound;
+        .card{
+            width: 367px;
+            height: 410px;
+             margin-left: 150px;
+             margin-top: 150px;
+            border-radius: 36px;
+            box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.1);
+            background-color: $white;
+            display: $flex;
+            flex-direction: $column;
+            justify-content: $spacebetween;
+            padding-left: $size40;
+            padding-right: $size40;
+            
+            div{
+                display: $flex;
+                justify-content: $center;
+            }
+            h2{
+                font-family: $fontpoppins;
+                font-size: $size18;
+                font-weight: $font600;
+                color: $titlegris;
+            }
+            p{
+                font-family: $fontlato;
+                font-size: $size15;
+                font-weight: $fontnormal;
+                color: $titlegris;
+            }
+            .button{
+               padding-bottom: 20px;
+                
+                button{
+                    width: 96px;
+                    height: $size30;                
+                    background: $degrade;
+                    color:$white;
+                    border: none;
+                    border-radius:$size25;
+                    margin-left: 200px;
+                    
+                }
+            }
+            
+        }
+    }
+}

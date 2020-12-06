@@ -1,0 +1,36 @@
+header{ 
+    width: $width100;
+    height: auto;
+    display: $flex;
+    
+
+    
+}
+#logo_title_header{
+    width:$width50; 
+      
+    display: $flex;
+    justify-content: $center;
+    
+    img{
+        margin-top: 10px;
+        height: 10vh;
+    }
+    h1{
+        padding-top: $size40;
+        padding-left: $size20;
+        color: $grish1;
+        font-family: $fontpoppins;
+        font-size: $size40;
+        font-weight: $fontbold;
+        
+    }
+    
+}
+
+
+  
+
+
+ 
+ 

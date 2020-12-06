@@ -1,0 +1,50 @@
+#newsletter{
+    width: $width100;
+    display: $flex;
+    flex-direction: $column;
+    padding-top: 135px;
+    padding-bottom: $size100;
+    #titlenews{
+        display: $flex;
+        flex-direction: $column;
+        align-items: $center;
+        h2{
+            color:$violet;
+            font-family:$fontlobster;
+            font-size: $size20;
+            font-weight:$fontnormal; 
+        }
+        h3{
+            font-family: $fontpoppins;
+            font-size: $size32;
+            font-weight: $fontnormal;
+            color:$titlegris;
+        }
+        span{
+            font-weight: $font600;
+        }
+    }
+    form{
+        
+        display: $flex;
+        justify-content: $center;
+        
+        #email{
+            width: 430px;
+            height: 52px;
+            border: none;
+            background-color:$grisinvi ;
+            border-radius: 5px;
+            padding-left: $size30;
+            
+        }
+        button{
+            width: 170px;
+            height: 52px;
+            border-radius: $size25;
+            border: none;
+            color: $white;   
+            background: $degrade;
+        }
+    }
+}

@@ -1,0 +1,81 @@
+
+
+#pricing{
+    background-color: $violetclair;
+    padding-bottom: $size100;
+
+    width: $width100;
+    #titleprice{
+        
+        width: $width100;
+        display: $flex;
+        flex-direction: $column;
+        align-items: $center;
+        padding-top: 90px;
+        padding-bottom: 60px;
+
+        h2{
+            font-family: $fontlobster;
+            font-size: $size20;
+            font-weight: $fontnormal;
+            color: $violet;
+        }
+        h3{
+            font-family: $fontpoppins;
+            font-size: $size50;
+            font-weight: $font600;
+            color: $titlegris;
+        }
+    }
+    #package{
+        display: $flex;
+        justify-content:$spacearound;
+        .cardpack{
+            width: 370px;
+            height: 460px;
+            border-radius: 25px;
+            box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.16);
+            background-color: $white;
+            display: $flex;
+            flex-direction: $column;
+            justify-content: $spacearound;
+            align-items: $center;
+            h2{
+                font-family: $fontlobster;
+                font-size: $size28;
+                font-weight: $fontnormal;
+                color: $titlegris;
+            }
+            .desc{
+                text-align: $center;
+                font-family: $fontpoppins;
+                font-size: $size16;
+                font-weight: $font300;
+                color: $gristext;
+            }
+            .prix{
+                font-family: $fontpoppins;
+                font-size: $size30;
+                font-weight: $font600;
+                color:$bleuflash
+            }
+            .fondblanc{
+                width: 170px;
+                height: 52px;
+                border-radius: $size25;
+                
+                color: $black;
+                border: solid 1px $bleuflash;
+                background: $white;
+            }
+            .fondblanc:hover{
+                width: 170px;
+                height: 52px;
+                border-radius: $size25;
+                border: none;
+                color: $white;   
+                background: $degrade;
+            }
+        }
+    }
+}
